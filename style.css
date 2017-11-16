@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://crystalseye.files.wordpress.com/2011/08/dsc_0724.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:900px;
+}
+h1{
+  font-family:Lobster;
+}
+
+#currentTemp:hover{
+  color:#996666;
+  cursor:pointer;
+}
+.btn{
+  margin-left:0.6cm;
+  margin-top:1cm;
+  font-size:20px;
+}
+.well{
+  width: 400px ;
+  height:500px;
+  margin-left:4.2cm;
+  margin-top : 2cm;
+}
+footer{
+  text-align:center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    padding: 0; 
+    width:50%;
+    align:center;
+}
+#icon{
+  font-size:50px;
+}
+a{
+  color:white;
+}

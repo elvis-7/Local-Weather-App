@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Local Weather Application</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" />
+    	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body id="body">
+<div class="container-fluid text-center">
+  <div>
+    <h1>Local Weather</h1>
+  </div>
+  <div class= "text-center">
+    <div class="row">
+       <div class= "well col-md-4">
+         <h2> Location</h2><hr><br>
+           <h3 id = "Location"> </h3>
+       </div>
+      <div class="well col-md-4">
+        <h2>Weather</h2><hr>
+        <h3 id="currentTemp"></h3>
+        <h3 id ="description"></h3>
+        <span id="icon"></span><br>
+        <h3 id="todayMax"></h3>
+        <h3 id="todayMin"></h3>
+        <button id="updateWeather" class="btn">Update Weather</button>
+        <button id="celsius"class="btn">Celsius</button>
+        <button id="fahrenheit"class="btn">Fahrenheit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer><hr> <h4>Coded by <a href= "https://codepen.io/dauntless_7/"target="_blank">Elvis Menezes</a></h4></footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="javs.js"></script>
